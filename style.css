@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    box-sizing: content-box;
+    margin: 10px;
+}
+
+button {
+    margin: 5px;
+    font-size: 55px;
+    width: fit-content;
+    border-color: transparent;
+    box-shadow: 2px 2px 6px gray;
+    background-color: transparent;
+
+}
+
+#res {
+    font-family: 'Rancho', cursive;
+    font-size: 32px;
+    text-shadow: 2px 2px 3px gray;
+    font-size: 40px;
+    justify-self: center;
+    align-self: center;
+}
+
+#x {
+    font-size: 60px;
+}
+
+#pc {
+    box-shadow: 2px 2px 6px gray;
+    width: fit-content;
+    font-size: 60px;
+}
+
+#contador {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rancho', cursive;
+    font-size: 20px;
+}
+
+#vitoria,
+#empate,
+#derrota {
+    box-shadow: 2px 2px 6px gray;
+    padding: 15px 30px;
+}
